@@ -98,7 +98,7 @@ def create_grayscale_my_image(path):
 
 
 if __name__ == "__main__":
-    # train_paths, val_paths = sample_test_dataset("/home/oleh/.fastai/data/coco_sample", 3000)
+    # train_paths, val_paths = sample_test_dataset("/home/mshuiak/.fastai/data/coco_sample", 3000)
     # train_dl = make_dataloaders(paths=train_paths, split='train')
     # val_dl = make_dataloaders(paths=val_paths, split='val')
     #

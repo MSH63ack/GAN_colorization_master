@@ -29,7 +29,7 @@ def train_loop_function(model, train_dataset, val_dataset, epochs, display_every
 
 
 def main():
-    train_paths, val_paths = sample_test_dataset("/home/oleh/.fastai/data/coco_sample", 3000)
+    train_paths, val_paths = sample_test_dataset("/home/mshuiak/.fastai/data/coco_sample", 3000)
     train_dataset = make_dataloaders(paths=train_paths, split='train')
     val_dataset = make_dataloaders(paths=val_paths, split='val')
     data = next(iter(train_dataset))

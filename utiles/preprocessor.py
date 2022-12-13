@@ -107,5 +107,5 @@ if __name__ == "__main__":
     # print(Ls.shape, abs_.shape)
     # print(len(train_dl), len(val_dl))
 
-    # create_grayscale_image("/home/oleh/.fastai/data/coco_sample")
-    create_grayscale_my_image("/home/oleh/Downloads/do_operu.jpg")
+    # create_grayscale_image("/home/mshuiak/.fastai/data/coco_sample")
+    create_grayscale_my_image("/home/mshuiak/Downloads/do_operu.jpg")
